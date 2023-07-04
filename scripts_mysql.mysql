@@ -1,0 +1,22 @@
+C:\Program Files\MySQL\MySQL Server 8.0\bin
+CREATE DATABASE api_flask;
+SHOW DATABASES;
+
+USE api_flask;
+SHOW TABLES;
+describe curso;
+
+
+
+
+// terminal -> ativando Scripts
+cd C:\Users\User\Desktop\Cursos\flaskUdemy\flask-mysql\Scripts
+activate
+//setando a variavel de ambiente
+set FLASK_APP=api.py
+cd ..
+// criando tabela
+flask db init
+flask db migrate
+flask db upgrade
+//
