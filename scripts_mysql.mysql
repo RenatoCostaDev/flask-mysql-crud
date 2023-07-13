@@ -5,6 +5,7 @@ SHOW DATABASES;
 USE api_flask;
 SHOW TABLES;
 describe curso;
+SELECT * FROM curso;
 
 
 
@@ -20,3 +21,14 @@ flask db init
 flask db migrate
 flask db upgrade
 //
+
+{
+    "data_publicacao": "2022-05-06",
+    "descricao": "Curso em assistente virtual com python",
+    "nome": "Assistente Virtual"
+}
+{
+    "nome":"Desenvolvimento de API's",
+    "descricao":"Curso focado em api's",
+    "data_publicacao":"2022-04-12"
+}
